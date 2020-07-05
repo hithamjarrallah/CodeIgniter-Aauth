@@ -18,7 +18,6 @@ class Example extends CI_Controller {
     }
 
     public function index() {
-
         if ($this->aauth->login('aa@a.com', '12345'))
             echo 'tmm';
         else
